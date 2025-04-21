@@ -46,6 +46,9 @@ pnpm dev
 bun dev
 ```
 
+Database Setup:
+Make sure to create your own mongoDB database using the data.json file at the route to populate your initial data.  Once that is done, make sure you update the .env.local file and set the MONGODB_URI global variable to your own mongoDB link.
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
